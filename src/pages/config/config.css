@@ -1,0 +1,33 @@
+section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*  */
+.configAreaTop {
+    margin-top: 9rem;
+}
+.configAreaTop > h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.configAreaTop > p {
+    margin-top: 0;
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+}
+/*  */
+.configAreaBody {
+    height: 30vh
+}
+
+/*  */
+
+
+.configAreaBottom {
+    margin-top: 3rem;
+}
+
+ 

@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    justify-content: space-around;
+    margin-bottom: 9rem;
+}
+
+#logo:hover {
+    rotate: rotate(70deg);
+}
+
+.headerList > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+.headerList > ul > li {
+    color: white;
+    margin: 0 1rem;
+     transition: .6s all ease-in;
+}
+
+.headerList > ul > li:hover {
+    cursor: pointer;
+    color: gray;
+    transition: .6s all ease-in;
+}

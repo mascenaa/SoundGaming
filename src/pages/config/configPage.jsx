@@ -5,6 +5,8 @@ import './config.css'
 import { GenerateUser } from '../../tools/generateUser';
 
 function Config() {
+    const nav = useNavigate()
+
     return (
     <section>
         <div className='configHeader'>
@@ -21,7 +23,11 @@ function Config() {
         </div>
 
         <div className='configAreaBottom'> 
-            <button onClick={() => {GenerateUser()}}>Start</button>
+            <button onClick={() => {
+                GenerateUser()
+                nav("/loading")
+                
+                }}>Start</button>
         </div>
 
     </section>);

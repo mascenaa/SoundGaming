@@ -1,0 +1,26 @@
+.loadingBody {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.loadingBody > h1 {
+    font-size: 42px;
+    color: white;
+}
+
+.loadingBody > h3 {
+    color:  gray;
+    margin-top: 5rem;
+    margin-bottom: 5px;
+}
+
+.loadingBody > h3 > img {
+    fill: #808080;
+}
+.loadingBody > p {
+    color: #808080;
+    margin-top: 0;
+}
